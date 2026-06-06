@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-matter: var(--font-matter);
+  --color-creed-bg: #0e0e0e;
+  --color-creed-text: #f0ede8;
+  --color-creed-surface: #0f0f0f;
+  --color-creed-light: #f7f7f7;
+}
+
+body {
+  background-color: var(--color-creed-bg);
+  color: var(--color-creed-text);
+  font-family: var(--font-matter), sans-serif;
+}
