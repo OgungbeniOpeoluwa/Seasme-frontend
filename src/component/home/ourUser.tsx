@@ -52,7 +52,7 @@ export default function OurUsers() {
 
         {/* Tabs */}
         <div className="border-b border-gray-300">
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-20">
+          <div className="flex items-center gap-8 overflow-x-auto whitespace-nowrap md:justify-center md:gap-20">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
