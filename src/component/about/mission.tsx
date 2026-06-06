@@ -4,7 +4,7 @@ export default function MissionVision() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-20">
         {/* Mission */}
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div className="relative h-[320px] md:h-[450px] overflow-hidden">
+          <div className="relative h-[240px] sm:h-[320px] md:h-[450px] overflow-hidden">
             <img
               src="/images/mission.png"
               alt="Mission"
@@ -42,7 +42,7 @@ export default function MissionVision() {
             </h2>
           </div>
 
-          <div className="order-1 lg:order-2 relative h-[320px] md:h-[450px] overflow-hidden">
+          <div className="order-1 lg:order-2 relative h-[240px] sm:h-[320px] md:h-[450px] overflow-hidden">
             <img
               src="/images/vision.png"
               alt="Vision"

@@ -15,7 +15,7 @@ export default function WhoWeServe() {
         <div className="grid gap-x-8 gap-y-14 md:grid-cols-2">
           {serveItems.map((item) => (
             <article key={item.id}>
-              <div className="relative h-[280px] overflow-hidden md:h-[350px] lg:h-[420px]">
+              <div className="relative h-[200px] overflow-hidden sm:h-[280px] md:h-[350px] lg:h-[420px]">
                 <img
                   src={item.image}
                   alt={item.title}

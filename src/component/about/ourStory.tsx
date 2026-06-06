@@ -29,7 +29,7 @@ export default function OurStory() {
         </div>
 
         {/* Image */}
-        <div className="relative mt-14 h-[300px] overflow-hidden md:h-[500px] lg:h-[650px]">
+        <div className="relative mt-14 h-[200px] overflow-hidden sm:h-[300px] md:h-[500px] lg:h-[650px]">
           <img
             src="/images/office.png"
             alt="Our Story"

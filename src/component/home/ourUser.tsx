@@ -74,9 +74,9 @@ export default function OurUsers() {
         </div>
 
         {/* Content */}
-        <div className="mt-16 grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:gap-20">
+        <div className="mt-16 grid gap-12 md:grid-cols-2 lg:grid-cols-[1.15fr_1fr] lg:gap-20">
           {/* Image */}
-          <div className="h-[350px] md:h-[500px] lg:h-[560px]">
+          <div className="h-[250px] sm:h-[350px] md:h-[500px] lg:h-[560px]">
             <img
               src={activeTab.image}
               alt={activeTab.title}

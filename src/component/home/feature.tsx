@@ -31,7 +31,7 @@ export default function Features() {
             )}
 
             <div
-              className={`grid grid-cols-1 gap-10 py-10 lg:grid-cols-2 ${
+              className={`grid grid-cols-1 gap-10 py-10 md:grid-cols-2 ${
                 index !== features.length - 1
                   ? "border-b border-zinc-800"
                   : ""
@@ -43,7 +43,7 @@ export default function Features() {
                   {feature.title}
                 </h3>
 
-                <p className="mt-4 max-w-md text-[16px] leading-8 text-zinc-500">
+                <p className="mt-4 max-w-md text-sm leading-8 text-zinc-500 sm:text-[16px]">
                   {feature.description}
                 </p>
               </div>
@@ -54,7 +54,7 @@ export default function Features() {
                   {feature.points.map((point) => (
                     <li
                       key={point}
-                      className="flex gap-4 text-[18px] leading-8"
+                      className="flex gap-4 text-sm leading-8 sm:text-[18px]"
                     >
                       <span className="text-zinc-500">✦</span>
                       <span>{point}</span>

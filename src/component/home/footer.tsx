@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
 
             {/* Registration note */}
-            <p className="max-w-[280px] text-right text-xs leading-relaxed text-white/30">
+            <p className="max-w-[280px] text-right text-xs leading-relaxed text-white/30 sm:max-w-full">
               Creed OTC is registered and regulated by the Securities and
               Exchange Commission, Nigeria
             </p>
